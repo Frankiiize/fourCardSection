@@ -8,4 +8,139 @@ html {
   font-size: 62.5%;
 }
 
+/* ----------------COLORS---------------- */
+/* ----------------/COLORS---------------- */
+/* ----------------FONTS------------------ */
+/* ----------------/FONTS----------------- */
+.icon-calculator, .icon-karma, .icon-team, .icon-supervisor {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-self: flex-end;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-supervisor {
+  background-image: url(/images/icon-supervisor.svg);
+}
+
+.icon-team {
+  background-image: url(/images/icon-team-builder.svg);
+}
+
+.icon-karma {
+  background-image: url(/images/icon-karma.svg);
+}
+
+.icon-calculator {
+  background-image: url(/images/icon-calculator.svg);
+}
+
+body {
+  background-color: #fafafa;
+}
+
+main {
+  display: block;
+  width: 100%;
+}
+
+.title__container {
+  width: 90%;
+  display: flex;
+  margin: 70px auto;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.title__container h1 {
+  width: 90%;
+  max-width: inherit;
+  display: inherit;
+  flex-direction: inherit;
+  margin-bottom: 20px;
+}
+.title__container h1 span:nth-child(1) {
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: #a3a5ae;
+}
+.title__container h1 span:nth-child(2) {
+  font-size: 2.5rem;
+  color: #4c4e61;
+}
+.title__container p {
+  width: 90%;
+  max-width: inherit;
+  display: inherit;
+  flex-direction: inherit;
+  color: #a3a5ae;
+  font-size: 1.5rem;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  margin: 50px auto;
+}
+
+footer {
+  width: 100%;
+}
+
+.card__container {
+  width: 80%;
+  max-width: 375px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: minmax(275px, 1fr);
+  grid-template-rows: auto;
+}
+.card__container__supervisor, .card__container__calculator, .card__container__karma, .card__container__team {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  justify-content: space-around;
+  border-top: 3px solid #45d3d3;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 9px 17px rgba(76, 78, 97, 0.5), 0px 1px 5px 1px rgba(69, 211, 211, 0.2);
+}
+.card__container__supervisor-description, .card__container__calculator-description, .card__container__karma-description, .card__container__team-description {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  align-self: center;
+}
+.card__container__supervisor-description h2, .card__container__calculator-description h2, .card__container__karma-description h2, .card__container__team-description h2 {
+  margin-top: 20px;
+  color: #4c4e61;
+  margin-bottom: 10px;
+}
+.card__container__supervisor-description p, .card__container__calculator-description p, .card__container__karma-description p, .card__container__team-description p {
+  color: #a3a5ae;
+  line-height: 1.7;
+}
+.card__container__supervisor-icon, .card__container__calculator-icon, .card__container__karma-icon, .card__container__team-icon {
+  display: flex;
+  width: 80%;
+  align-self: center;
+  justify-content: flex-end;
+}
+.card__container__team {
+  border-top: 3px solid #ea5353;
+}
+.card__container__karma {
+  border-top: 3px solid #fcaf4a;
+}
+.card__container__calculator {
+  border-top: 3px solid #549ef2;
+}
+
 /*# sourceMappingURL=styles.css.map */
