@@ -4,7 +4,6 @@
 ###############################################
 *.sketch
 /design
-/images
 /sass
 styles.css.map
 desk.css.map
