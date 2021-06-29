@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/variables/_normalize.scss","../sass/variables/_variables.scss","../sass/desk.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;AAEF;EACE;;;ACNJ;AASA;AACA;AAKA;ACbA;EACI;;AAEA;EACI;EACA;;;AAIR;EAEI;EACA;EACA;EACA;;AACA;EACI,WDLI;;ACOR;EAEI;EACA;EACA;;AAGJ;EAEI;EACA;;AAEJ;EAEI;EACA;EACA;;AAEJ;EACI;EACA","file":"desk.css"}
