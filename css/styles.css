@@ -40,26 +40,21 @@ html {
 
 body {
   background-color: #fafafa;
-  background-repeat: no-repeat;
-  background-size: contain;
+  height: 100vh;
   width: 100%;
-  height: 100%;
 }
 
 main {
   display: block;
   width: 100%;
-  margin: 70px 0px 70px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 50px 0px;
 }
 
 .title__container {
   width: 90%;
   min-width: 90%;
   display: flex;
-  margin: 0 auto 50px auto;
+  margin: 0px auto 50px auto;
   flex-direction: column;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -97,9 +92,10 @@ main {
 
 footer {
   width: 100%;
-  height: 20px;
+  height: 2%;
   display: flex;
   justify-content: flex-end;
+  margin: 10px 10px;
   font-family: "Poppins", sans-serif;
 }
 footer p {
@@ -116,7 +112,7 @@ footer p a {
   margin: 30px auto;
   display: grid;
   row-gap: 10px;
-  grid-template-columns: minmax(275px, 375px);
+  grid-template-columns: minmax(275px, 325px);
   grid-template-rows: auto;
   justify-content: center;
 }
@@ -125,6 +121,7 @@ footer p a {
   flex-direction: column;
   min-height: 300px;
   justify-content: space-around;
+  min-width: 275px;
   border-top: 3px solid #45d3d3;
   border-radius: 5px;
   background-color: white;
