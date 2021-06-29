@@ -40,17 +40,26 @@ html {
 
 body {
   background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
 }
 
 main {
   display: block;
   width: 100%;
+  margin: 70px 0px 70px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title__container {
   width: 90%;
+  min-width: 90%;
   display: flex;
-  margin: 70px auto;
+  margin: 0 auto 50px auto;
   flex-direction: column;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -74,7 +83,6 @@ main {
 }
 .title__container p {
   width: 90%;
-  max-width: inherit;
   display: inherit;
   flex-direction: inherit;
   color: #a3a5ae;
@@ -84,11 +92,12 @@ main {
 .cards {
   width: 100%;
   display: flex;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 footer {
   width: 100%;
+  height: 20px;
   display: flex;
   justify-content: flex-end;
   font-family: "Poppins", sans-serif;
@@ -103,23 +112,23 @@ footer p a {
 }
 
 .card__container {
-  width: 80%;
-  max-width: 375px;
-  margin: 0 auto;
+  width: 90%;
+  margin: 30px auto;
   display: grid;
   row-gap: 10px;
-  grid-template-columns: minmax(275px, 1fr);
+  grid-template-columns: minmax(275px, 375px);
   grid-template-rows: auto;
+  justify-content: center;
 }
 .card__container__supervisor, .card__container__calculator, .card__container__karma, .card__container__team {
   display: flex;
   flex-direction: column;
-  min-height: 200px;
+  min-height: 300px;
   justify-content: space-around;
   border-top: 3px solid #45d3d3;
   border-radius: 5px;
   background-color: white;
-  box-shadow: 0 9px 17px rgba(76, 78, 97, 0.5), 0px 1px 5px 1px rgba(69, 211, 211, 0.2);
+  box-shadow: 0 9px 17px rgba(76, 78, 97, 0.2), 0px 1px 5px 1px rgba(69, 211, 211, 0.2);
 }
 .card__container__supervisor-description, .card__container__calculator-description, .card__container__karma-description, .card__container__team-description {
   width: 80%;
