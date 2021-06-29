@@ -23,19 +23,19 @@ html {
 }
 
 .icon-supervisor {
-  background-image: url(/images/icon-supervisor.svg);
+  background-image: url(images/icon-supervisor.svg);
 }
 
 .icon-team {
-  background-image: url(/images/icon-team-builder.svg);
+  background-image: url(images/icon-team-builder.svg);
 }
 
 .icon-karma {
-  background-image: url(/images/icon-karma.svg);
+  background-image: url(images/icon-karma.svg);
 }
 
 .icon-calculator {
-  background-image: url(/images/icon-calculator.svg);
+  background-image: url("https://github.com/Frankiiize/fourCardSection/blob/origin/images/icon-calculator.svg");
 }
 
 body {
