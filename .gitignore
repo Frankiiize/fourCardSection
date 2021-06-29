@@ -5,6 +5,8 @@
 *.sketch
 /design
 /images
+/sass
+styles.css.map
 README-template.md
 style-guide.md
 package.json
