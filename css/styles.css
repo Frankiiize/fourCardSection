@@ -47,7 +47,7 @@ body {
 main {
   display: block;
   width: 100%;
-  padding: 50px 0px;
+  padding: 50px 0px 10px 0px;
 }
 
 .title__container {
@@ -95,7 +95,7 @@ footer {
   height: 2%;
   display: flex;
   justify-content: flex-end;
-  margin: 10px 10px;
+  align-items: center;
   font-family: "Poppins", sans-serif;
 }
 footer p {
